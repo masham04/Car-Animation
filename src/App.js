@@ -9,10 +9,10 @@ function App() {
       <div class="hero">
 	           <div class="highway"></div>
 	           <div class="city"></div>
-	           <div  class="car"><img src={car}></img></div>
+	           <div  class="car"><img src={car} alt='car'></img></div>
 	           <div class="wheel">
-	         	  <img src={wheel} id="wheel1"></img>
-		          <img src={wheel} id="wheel2"></img>
+	         	  <img src={wheel} id="wheel1" alt='wheel'></img>
+		          <img src={wheel} id="wheel2" alt='wheel'></img>
 	             </div>
       </div>
    
